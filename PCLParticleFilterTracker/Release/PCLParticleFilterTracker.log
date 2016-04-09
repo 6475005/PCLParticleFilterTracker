@@ -1,0 +1,288 @@
+﻿Build started 3/23/2016 3:22:59 PM.
+     1>Project "C:\Users\ChuuKyou\documents\visual studio 2010\Projects\PCLParticleFilterTracker\PCLParticleFilterTracker\PCLParticleFilterTracker.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\PCLParticleFilterTracker.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\PCLParticleFilterTracker.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D BOOST_ALL_DYN_LINK /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Traker.cpp Kinect\KinectGeneral.cpp Kinect\KinectSensor.cpp
+         Traker.cpp
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_traits.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1008): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003) : see declaration of 'pcl::SHOT'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1009): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003) : see declaration of 'pcl::SHOT'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1012): warning C4996: 'pcl::SHOT::rf': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1005) : see declaration of 'pcl::SHOT::rf'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1013): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1004) : see declaration of 'pcl::SHOT::descriptor'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1014): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1004) : see declaration of 'pcl::SHOT::descriptor'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1014): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1004) : see declaration of 'pcl::SHOT::descriptor'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_traits.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_traits.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_traits.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(445): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003) : see declaration of 'pcl::SHOT'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(446): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003) : see declaration of 'pcl::SHOT'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(449): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(446) : see declaration of 'pcl::DefaultPointRepresentation<pcl::SHOT>'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(455): warning C4996: 'pcl::SHOT': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1003) : see declaration of 'pcl::SHOT'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(458): warning C4996: 'pcl::SHOT::descriptor': USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/impl/point_types.hpp(1004) : see declaration of 'pcl::SHOT::descriptor'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(460): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(460) : compiler has generated 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation' here
+                 This diagnostic occurred in the compiler generated function 'void *pcl::DefaultPointRepresentation<pcl::SHOT>::__delDtor(unsigned int)'
+     1>C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(460): warning C4996: 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation': SHOT POINT IS DEPRECATED, USE SHOT352 FOR SHAPE AND SHOT1344 FOR SHAPE+COLOR INSTEAD
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/point_representation.h(460) : compiler has generated 'pcl::DefaultPointRepresentation<pcl::SHOT>::~DefaultPointRepresentation' here
+                 This diagnostic occurred in the compiler generated function 'void *pcl::DefaultPointRepresentation<pcl::SHOT>::__delDtor(unsigned int)'
+     1>C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/util/logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(74): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(75): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(82): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(83): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(99): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(114): warning C4244: 'initializing' : conversion from 'float' to 'const int', possible loss of data
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(206): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(210): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(258): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(383): warning C4804: '>' : unsafe use of type 'bool' in operation
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(403): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(407): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(558): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(566): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : see declaration of 'sscanf'
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(764): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(766): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(771): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(778): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\NaoAPI.h(1): warning C4005: 'BOOST_ALL_DYN_LINK' : macro redefinition
+                 command-line arguments :  see previous definition of 'BOOST_ALL_DYN_LINK'
+     1>C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\qitype/signal.hpp(41): warning C4275: non dll-interface class 'boost::noncopyable_::noncopyable' used as base for dll-interface class 'qi::SignalBase'
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\boost/noncopyable.hpp(24) : see declaration of 'boost::noncopyable_::noncopyable'
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\qitype/signal.hpp(40) : see declaration of 'qi::SignalBase'
+     1>C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\qitype/details/anyobject.hxx(473): warning C4275: non dll-interface class 'boost::noncopyable_::noncopyable' used as base for dll-interface class 'qi::Proxy'
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\boost/noncopyable.hpp(24) : see declaration of 'boost::noncopyable_::noncopyable'
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\qitype/details/anyobject.hxx(472) : see declaration of 'qi::Proxy'
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\Sift.h(112): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\Sift.h(116): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\Sift.h(119): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\opencv2.4.11\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ColorHistMatch.h(71): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ColorHistMatch.h(72): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Traker.cpp(39): warning C4309: '=' : truncation of constant value
+     1>Traker.cpp(41): warning C4309: '=' : truncation of constant value
+     1>Traker.cpp(43): warning C4309: '=' : truncation of constant value
+     1>Traker.cpp(53): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Traker.cpp(54): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Traker.cpp(101): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Traker.cpp(104): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>Traker.cpp(218): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Traker.cpp(342): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Traker.cpp(374): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>Traker.cpp(396): warning C4551: function call missing argument list
+     1>Traker.cpp(400): warning C4551: function call missing argument list
+     1>C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/flann.hpp(78): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+                 C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/flann.hpp(114) : see reference to function template instantiation 'flann::NNIndex<Distance> *flann::load_saved_index<Distance>(const flann::Matrix<T> &,const std::string &,Distance)' being compiled
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+                 C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/flann.hpp(107) : while compiling class template member function 'flann::Index<Distance>::Index(const flann::Matrix<T> &,const flann::IndexParams &,Distance)'
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/kdtree/kdtree_flann.h(377) : see reference to class template instantiation 'flann::Index<Distance>' being compiled
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+     1>C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/algorithms/dist.h(103): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(688) : see reference to function template instantiation 'float flann::L2_Simple<T>::operator ()<T*,double*>(Iterator1,Iterator2,size_t,float) const' being compiled
+                 with
+                 [
+                     T=float,
+                     Iterator1=float *,
+                     Iterator2=double *
+                 ]
+                 C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/algorithms/kmeans_index.h(644) : while compiling class template member function 'void flann::KMeansIndex<Distance>::computeClustering(flann::KMeansIndex<Distance>::KMeansNode *,int *,int,int,int)'
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+                 C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/algorithms/all_indices.h(96) : see reference to class template instantiation 'flann::KMeansIndex<Distance>' being compiled
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>
+                 ]
+                 C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/algorithms/all_indices.h(102) : see reference to class template instantiation 'flann::valid_combination<Index,Distance,ElementType>::needs_kdtree_distance<T>' being compiled
+                 with
+                 [
+                     Index=flann::KMeansIndex,
+                     Distance=flann::L2_Simple<float>,
+                     ElementType=ElementType,
+                     T=flann::KMeansIndex<flann::L2_Simple<float>>
+                 ]
+                 C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/algorithms/all_indices.h(152) : see reference to class template instantiation 'flann::valid_combination<Index,Distance,ElementType>' being compiled
+                 with
+                 [
+                     Index=flann::KMeansIndex,
+                     Distance=flann::L2_Simple<float>,
+                     ElementType=ElementType
+                 ]
+                 C:\Program Files (x86)\PCL 1.6.0\3rdParty\FLANN\include\flann/flann.hpp(118) : see reference to function template instantiation 'flann::NNIndex<Distance> *flann::create_index_by_type<Distance>(const flann::Matrix<T> &,const flann::IndexParams &,const Distance &)' being compiled
+                 with
+                 [
+                     Distance=flann::L2_Simple<float>,
+                     T=float
+                 ]
+     1>C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\boost/bind/bind.hpp(586): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\boost/bind/bind_template.hpp(174) : see reference to function template instantiation 'R boost::_bi::list6<A1,A2,A3,A4,A5,A6>::operator ()<int,F,boost::_bi::list5<const pcl::PointCloud<PointT> &,unsigned int &,double &,std::vector<_Ty> &,std::vector<float> &>>(boost::_bi::type<T>,F &,A &,long)' being compiled
+                 with
+                 [
+                     R=int,
+                     A1=boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,
+                     A2=boost::arg<1>,
+                     A3=boost::arg<2>,
+                     A4=boost::arg<3>,
+                     A5=boost::arg<4>,
+                     A6=boost::arg<5>,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     PointT=pcl::PointXYZ,
+                     _Ty=int,
+                     T=int,
+                     A=boost::_bi::list5<const pcl::PointCloud<pcl::PointXYZ> &,size_t &,double &,std::vector<int> &,std::vector<float> &>
+                 ]
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\boost/function/function_template.hpp(132) : see reference to function template instantiation 'int boost::_bi::bind_t<R,F,L>::operator ()<const pcl::PointCloud<PointT>,T1,T2,std::vector<_Ty>,std::vector<float>>(A1 &,A2 &,A3 &,A4 &,A5 &)' being compiled
+                 with
+                 [
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     PointT=pcl::PointXYZ,
+                     T1=size_t,
+                     T2=double,
+                     _Ty=int,
+                     A1=const pcl::PointCloud<pcl::PointXYZ>,
+                     A2=size_t,
+                     A3=double,
+                     A4=std::vector<int>,
+                     A5=std::vector<float>
+                 ]
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\boost/function/function_template.hpp(126) : while compiling class template member function 'int boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,T1,T2,T3,T4>::invoke(boost::detail::function::function_buffer &,T0,T1,T2,T3,T4)'
+                 with
+                 [
+                     FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZ> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &
+                 ]
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\boost/function/function_template.hpp(934) : see reference to class template instantiation 'boost::detail::function::function_obj_invoker5<FunctionObj,R,T0,T1,T2,T3,T4>' being compiled
+                 with
+                 [
+                     FunctionObj=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>,
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZ> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &
+                 ]
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\boost/function/function_template.hpp(722) : see reference to function template instantiation 'void boost::function5<R,T0,T1,T2,T3,T4>::assign_to<Functor>(Functor)' being compiled
+                 with
+                 [
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZ> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\boost/function/function_template.hpp(1070) : see reference to function template instantiation 'boost::function5<R,T0,T1,T2,T3,T4>::function5<boost::_bi::bind_t<R,F,L>>(Functor,int)' being compiled
+                 with
+                 [
+                     R=int,
+                     T0=const pcl::PointCloud<pcl::PointXYZ> &,
+                     T1=size_t,
+                     T2=double,
+                     T3=std::vector<int> &,
+                     T4=std::vector<float> &,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\naoqi-sdk-2.1.3.3-win32-vs2010\include\boost/function/function_template.hpp(1124) : see reference to function template instantiation 'boost::function<Signature>::function<boost::_bi::bind_t<R,F,L>>(Functor,int)' being compiled
+                 with
+                 [
+                     Signature=int (const pcl::PointCloud<pcl::PointXYZ> &,size_t,double,std::vector<int> &,std::vector<float> &),
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/features/impl/feature.hpp(159) : see reference to function template instantiation 'boost::function<Signature> &boost::function<Signature>::operator =<boost::_bi::bind_t<R,F,L>>(Functor)' being compiled
+                 with
+                 [
+                     Signature=int (const pcl::PointCloud<pcl::PointXYZ> &,size_t,double,std::vector<int> &,std::vector<float> &),
+                     R=int,
+                     F=boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,
+                     L=boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>,
+                     Functor=boost::_bi::bind_t<int,boost::_mfi::cmf5<int,pcl::search::Search<pcl::PointXYZ>,const pcl::PointCloud<pcl::PointXYZ> &,int,int,std::vector<int> &,std::vector<float> &>,boost::_bi::list6<boost::reference_wrapper<boost::shared_ptr<pcl::search::Search<pcl::PointXYZ>>>,boost::arg<1>,boost::arg<2>,boost::arg<3>,boost::arg<4>,boost::arg<5>>>
+                 ]
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/features/impl/feature.hpp(93) : while compiling class template member function 'bool pcl::Feature<PointInT,PointOutT>::initCompute(void)'
+                 with
+                 [
+                     PointInT=pcl::PointXYZ,
+                     PointOutT=pcl::Normal
+                 ]
+                 C:\Program Files (x86)\PCL 1.6.0\include\pcl-1.6\pcl/features/normal_3d.h(194) : see reference to class template instantiation 'pcl::Feature<PointInT,PointOutT>' being compiled
+                 with
+                 [
+                     PointInT=pcl::PointXYZ,
+                     PointOutT=pcl::Normal
+                 ]
+                 c:\users\chuukyou\documents\visual studio 2010\projects\pclparticlefiltertracker\pclparticlefiltertracker\ParticleFilter.h(93) : see reference to class template instantiation 'pcl::NormalEstimation<PointInT,PointOutT>' being compiled
+                 with
+                 [
+                     PointInT=pcl::PointXYZ,
+                     PointOutT=pcl::Normal
+                 ]
+         KinectGeneral.cpp
+         KinectSensor.cpp
+     1>Kinect\KinectSensor.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+     1>Kinect\KinectSensor.cpp(373): warning C4018: '<=' : signed/unsigned mismatch
+     1>Kinect\KinectSensor.cpp(485): warning C4018: '>' : signed/unsigned mismatch
+     1>Kinect\KinectSensor.cpp(486): warning C4018: '>' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ChuuKyou\documents\visual studio 2010\Projects\PCLParticleFilterTracker\Release\PCLParticleFilterTracker.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib alagilityutils.lib alaudio.lib alautomatictest.lib albehavior.lib alcommon.lib alerror.lib alextractor.lib allauncher.lib almathinternal.lib almath.lib almemoryfastaccess.lib alparammanager.lib alproxies.lib alpythontools.lib alserial.lib alsoap.lib althread.lib alvalueutils.lib alvalue.lib alvision.lib "boost_atomic-vc100-mt-1_55.lib" "boost_bzip2-vc100-mt-1_55.lib" "boost_chrono-vc100-mt-1_55.lib" "boost_context-vc100-mt-1_55.lib" "boost_coroutine-vc100-mt-1_55.lib" "boost_date_time-vc100-mt-1_55.lib" "boost_filesystem-vc100-mt-1_55.lib" "boost_graph-vc100-mt-1_55.lib" "boost_iostreams-vc100-mt-1_55.lib" "boost_locale-vc100-mt-1_55.lib" "boost_log-vc100-mt-1_55.lib" "boost_log_setup-vc100-mt-1_55.lib" "boost_math_c99-vc100-mt-1_55.lib" "boost_math_c99f-vc100-mt-1_55.lib" "boost_math_c99l-vc100-mt-1_55.lib" "boost_math_tr1-vc100-mt-1_55.lib" "boost_math_tr1f-vc100-mt-1_55.lib" "boost_math_tr1l-vc100-mt-1_55.lib" "boost_prg_exec_monitor-vc100-mt-1_55.lib" "boost_program_options-vc100-mt-1_55.lib" "boost_python-vc100-mt-1_55.lib" "boost_random-vc100-mt-1_55.lib" "boost_regex-vc100-mt-1_55.lib" "boost_serialization-vc100-mt-1_55.lib" "boost_signals-vc100-mt-1_55.lib" "boost_system-vc100-mt-1_55.lib" "boost_thread-vc100-mt-1_55.lib" "boost_timer-vc100-mt-1_55.lib" "boost_unit_test_framework-vc100-mt-1_55.lib" "boost_wave-vc100-mt-1_55.lib" "boost_wserialization-vc100-mt-1_55.lib" libeay32.lib opencv_calib3d243.lib opencv_contrib243.lib opencv_core243.lib opencv_features2d243.lib opencv_flann243.lib opencv_gpu243.lib opencv_highgui243.lib opencv_imgproc243.lib opencv_legacy243.lib opencv_ml243.lib opencv_nonfree243.lib opencv_objdetect243.lib opencv_photo243.lib opencv_stitching243.lib opencv_ts243.lib opencv_video243.lib opencv_videostab243.lib pthreadVC2.lib pthreadVCE2.lib pthreadVSE2.lib python27.lib qic.lib qimessaging.lib qiperf.lib qipython.lib qitype.lib qi.lib rttools.lib ssleay32.lib tinyxml.lib pcl_apps_release.lib pcl_common_release.lib pcl_features_release.lib pcl_filters_release.lib pcl_io_ply_release.lib pcl_io_release.lib pcl_kdtree_release.lib pcl_keypoints_release.lib pcl_octree_release.lib pcl_registration_release.lib pcl_sample_consensus_release.lib pcl_search_release.lib pcl_segmentation_release.lib pcl_surface_release.lib pcl_tracking_release.lib pcl_visualization_release.lib flann.lib flann_s.lib flann_cpp_s.lib qhull6.lib qhullcpp.lib qhullstatic.lib qhullstatic_p.lib MapReduceMPI.lib mpistubs.lib vtkalglib.lib vtkCharts.lib vtkCommon.lib vtkDICOMParser.lib vtkexoIIc.lib vtkexpat.lib vtkFiltering.lib vtkfreetype.lib vtkftgl.lib vtkGenericFiltering.lib vtkGeovis.lib vtkGraphics.lib vtkHybrid.lib vtkImaging.lib vtkInfovis.lib vtkIO.lib vtkjpeg.lib vtklibxml2.lib vtkmetaio.lib vtkNetCDF.lib vtkNetCDF_cxx.lib vtkpng.lib vtkproj4.lib vtkRendering.lib vtksqlite.lib vtksys.lib vtktiff.lib vtkverdict.lib vtkViews.lib vtkVolumeRendering.lib vtkWidgets.lib vtkzlib.lib opengl32.lib Kinect10.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\PCLParticleFilterTracker.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ChuuKyou\documents\visual studio 2010\Projects\PCLParticleFilterTracker\Release\PCLParticleFilterTracker.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ChuuKyou\documents\visual studio 2010\Projects\PCLParticleFilterTracker\Release\PCLParticleFilterTracker.lib" /MACHINE:X86 Release\Traker.obj
+         Release\KinectGeneral.obj
+         Release\KinectSensor.obj
+         Generating code
+         Finished generating code
+         PCLParticleFilterTracker.vcxproj -> C:\Users\ChuuKyou\documents\visual studio 2010\Projects\PCLParticleFilterTracker\Release\PCLParticleFilterTracker.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\ChuuKyou\documents\visual studio 2010\Projects\PCLParticleFilterTracker\Release\PCLParticleFilterTracker.exe;#1" /manifest Release\PCLParticleFilterTracker.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\PCLParticleFilterTracker.unsuccessfulbuild".
+         Touching "Release\PCLParticleFilterTracker.lastbuildstate".
+     1>Done Building Project "C:\Users\ChuuKyou\documents\visual studio 2010\Projects\PCLParticleFilterTracker\PCLParticleFilterTracker\PCLParticleFilterTracker.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:38.18
